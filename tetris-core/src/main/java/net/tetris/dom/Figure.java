@@ -66,7 +66,7 @@ public interface Figure {
 
         public abstract Figure createNewFigure();
     }
-
+    int getPresent();
     int getLeft();
 
     int getRight();
